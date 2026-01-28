@@ -26,5 +26,63 @@ p {
 }
 a {
     text-decoration: none;
-    color: #e71d36
+    color: #e71d36;
+    font-weight: 800;
+    padding: 15px 10px;
+}
+a:hover {
+    color: #2ec4b6;
+}
+
+header {
+    text-align: center;
+    background-color: #011627;
+    padding-top: 5px;
+    margin-bottom: 30px;
+}
+.logo {
+    font-family: "Changa One", sans-serif;
+    font-size: 1.75rem;
+    line-height: 0.8;
+    color: #2ec4b6;
+}
+#graphiste {
+    color: #e71d36;
+    margin-top: -5px;
+}
+nav {
+    padding: 10px 0;
+    margin-top: 20px;
+    color: white;
+}
+nav ul {
+    margin: 0 10px;
+}
+nav ul li {
+    list-style: none;
+    display: inline-block;
+}
+nav ul li:first-child {
+    display: none;
+}
+main {
+    margin: 0 5%;
+}
+
+
+footer {
+    padding-top: 50px;
+    text-align: center;
+    filter: grayscale(1);
+}
+footer nav {
+    display: inline-block;
+}
+footer nav img {
+    width: 50px;
+    gap: 30px;
+}
+footer nav img:hover {
+    filter: grayscale(0);
+    transition: filter 500ms linear;
 }
