@@ -6,37 +6,94 @@
     <!-- Ajuste la taille de la page aux différents appareils : pc, mobiles, tablettes -->
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Titre de la page. Visible dans l'onglet du navigateur -->
-    <title>Titre de la page | Laure Dinateur</title>
+    <title>Accueil | Laure Dinateur</title>
     <!-- Auteur -->
     <meta name="author" content="Matteo Piquerez">
     <!-- Icône de base du site : FAVICON -->
     <link rel="icon" type="image/x-icon" href="_sources/images/favicon.ico">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/responsive.css">
 </head>
 <body>
 <header>
 
-    <div>
-        <a href="index.html" class="logo" >Laure Dinateur</a>
-    </div>
-    <div id="graphiste">Graphiste</div>
+    <a href="index.html" class="logo">
+        <div id="nom">Laure Dinateur</div>
+        <div id="métier">Graphiste</div>
+    </a>
 
     <nav>
         <ul>
-            <li><a href="index.html">Accueil</a></li>
-            <li><a href="informations.html">Qui suis-je</a></li>
-            <li><a href="contact.html">Me contacter</a></li>
+            <li><a href="index.html" class="Accueil navig">Accueil</a></li>
+            <li><a href="informations.html" class="navig">Qui suis-je</a></li>
+            <li><a href="contact.html" class="navig">Me contacter</a></li>
         </ul>
     </nav>
 
 </header>
-<main></main>
+
+<main>
+    <h1 id="realisation">Mes réalisations</h1>
+
+    <ul class="oeuvre">
+        <li>
+            <a href="_sources/images/numbers-01.jpg" target="_blank">
+                <figure>
+                    <img src="_sources/images/numbers-01.jpg" alt="oeuvre num 1">
+                    <figcaption>Expérimentation de couleurs</figcaption>
+                </figure>
+            </a>
+        </li>
+
+        <li>
+            <a href="_sources/images/numbers-02.jpg" target="_blank">
+                <figure>
+                    <img src="_sources/images/numbers-02.jpg" alt="oeuvre num 2">
+                    <figcaption>Jeu de fondus</figcaption>
+                </figure>
+            </a>
+        </li>
+
+        <li>
+            <a href="_sources/images/numbers-06.jpg" target="_blank">
+                <figure>
+                    <img src="_sources/images/numbers-06.jpg" alt="oeuvre num 6">
+                    <figcaption>80's style</figcaption>
+                </figure>
+            </a>
+        </li>
+
+        <li>
+            <a href="_sources/images/numbers-09.jpg" target="_blank">
+                <figure>
+                    <img src="_sources/images/numbers-09.jpg" alt="oeuvre num 9">
+                    <figcaption>Travail avec les pinceaux</figcaption>
+                </figure>
+            </a>
+        </li>
+
+        <li>
+            <a href="_sources/images/numbers-12.jpg" target="_blank">
+                <figure>
+                    <img src="_sources/images/numbers-12.jpg" alt="oeuvre num 12">
+                    <figcaption>Répétition de formes</figcaption>
+                </figure>
+            </a>
+        </li>
+    </ul>
+
+</main>
+
 <footer>
+
     <nav>
-        <img src="_sources/images/twitter-draw.png" alt="Logo de Twitter">
-        <img src="_sources/images/facebook-draw.png" alt="Logo de Facebook">
+        <ul>
+            <li><a href="#"><img src="_sources/images/twitter-draw.png" alt="Logo de Twitter" class="img"></a></li>
+            <li><a href="#"><img src="_sources/images/facebook-draw.png" alt="Logo de Facebook" class="img"></a></li>
+        </ul>
     </nav>
+
     <p>&copy;2016 Laure Dinateur</p>
 </footer>
 </body>
